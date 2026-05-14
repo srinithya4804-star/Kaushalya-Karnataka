@@ -1,0 +1,8 @@
+{
+  "name": "Kaushalya Karnataka",
+  "description": "Local Skilled Worker App for Karnataka - Connecting skilled professionals with customers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

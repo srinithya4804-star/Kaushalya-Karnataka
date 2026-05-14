@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Kaushalya Karnataka</string>
+    <string name="welcome_text">Namaskara! Welcome to Kaushalya Karnataka</string>
+    <string name="select_role">I want to...</string>
+    <string name="work_as_skilled">Find Work (Skilled Professional)</string>
+    <string name="hire_skilled">Hire a Professional (Customer)</string>
+    <string name="register_as_worker">Worker Registration</string>
+    <string name="name_hint">Full Name</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="trade_hint">Select Trade</string>
+    <string name="location_hint">Location (City/District)</string>
+    <string name="register_btn">Complete Registration</string>
+    <string name="add_service">Add New Service</string>
+    <string name="service_name_hint">Service Name (e.g. Toilet Repair)</string>
+    <string name="price_hint">Price (₹)</string>
+    <string name="save_service">Save Service</string>
+    <string name="upload_work">Upload Work Photos</string>
+    <string name="services">Services Offered</string>
+    <string name="reviews">Customer Reviews</string>
+    <string name="hire_now">Hire Professional</string>
+    <string name="add_review">Write a Review</string>
+    <string name="submit_review">Submit Review</string>
+    <string name="comment_hint">Share your experience...</string>
+</resources>

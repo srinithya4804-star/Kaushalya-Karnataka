@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="System Access"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:letterSpacing="-0.02"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SELECT ROLE TO PROCEED"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_secondary"
+            android:letterSpacing="0.15"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="48dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnWorker"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:text="Find Work (Professional)"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:cornerRadius="10dp"
+            android:layout_marginBottom="16dp"
+            app:icon="@android:drawable/ic_menu_myplaces"
+            app:iconPadding="12dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCustomer"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:text="Hire a Pro (Customer)"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:cornerRadius="10dp"
+            app:strokeColor="@color/primary"
+            app:icon="@android:drawable/ic_menu_search"
+            app:iconPadding="12dp"/>
+            
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
